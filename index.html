@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privify - Making Compliance Easy with AI</title>
+    <link rel="stylesheet" href="../dist/styles.css">
+    <style>
+        .image-cropper {
+            position: relative;
+            width: 100%;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 0.75rem; /* Adds rounded edges */
+        }
+        .image-cropper img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: auto;
+            height: 100%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-white shadow">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <h1 class="text-2xl font-bold">Privify</h1>
+            <nav class="space-x-4">
+                
+                <a href="#products" class="text-gray-600 hover:text-gray-900">Products</a>
+                <a href="#contact" class="text-gray-600 hover:text-gray-900">Contact</a>
+                <a href="https://dashboard.privify.org" class="text-gray-600 hover:text-gray-900">Login</a>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="bg-gray-200 py-20">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-4xl font-bold mb-4">Making Compliance Easy with AI</h2>
+            <p class="text-gray-600 mb-8">Privify leverages AI and Gena AI to streamline compliance.</p>
+            <a href="https://dashboard.privify.org" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Get Started</a>
+        </div>
+    </section>
+    
+    <section id="products" class="py-20">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Our Offerings</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="image-cropper mb-4">
+                        <img src="https://www.matrixcomsec.com/wp-content/uploads/2021/08/Integrated-Security-Systems-Blog-Image.png" alt="Intelligent Auditor">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Intelligent Auditor</h3>
+                    <p class="text-gray-600 mb-4">Automate your auditing process with our AI-driven Intelligent Auditor.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="image-cropper mb-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCC6XIw-Sw4n8k-kR2cS76QyMBCRaBBuYo4w&s" alt="Cloud Security">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Cloud Security via Integrations</h3>
+                    <p class="text-gray-600 mb-4">Enhance your cloud security with seamless integrations.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <div class="image-cropper mb-4">
+                        <img src="https://i0.wp.com/grc2020.com/wp-content/uploads/2023/10/GRC-and-AI.png?w=1000&ssl=1" alt="Next Gen GRC">
+                    </div>
+                    <h3 class="text-2xl font-bold mb-2">Next Gen GRC</h3>
+                    <p class="text-gray-600 mb-4">Experience the future of Governance, Risk, and Compliance.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section hidden  class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Testimonials</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-gray-600 mb-4">"Privify has transformed our compliance process. The AI capabilities are exceptional."</p>
+                    <p class="font-bold">- John Doe, CEO of ExampleCorp</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md">
+                    <p class="text-gray-600 mb-4">"The Intelligent Auditor saved us countless hours. Highly recommended!"</p>
+                    <p class="font-bold">- Jane Smith, CTO of Sample Inc.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 px-10">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Contact Us</h2>
+            <form class="max-w-lg mx-auto bg-white p-8 rounded-lg shadow-md">
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Name</label>
+                    <input type="text" id="name" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="email" class="block text-gray-700">Email</label>
+                    <input type="email" id="email" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500">
+                </div>
+                <div class="mb-4">
+                    <label for="message" class="block text-gray-700">Message</label>
+                    <textarea id="message" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:border-blue-500"></textarea>
+                </div>
+                <div class="text-center">
+                    <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 Privify. All rights reserved.</p>
+            <div class="mt-4">
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Privacy Policy</a>
+                <a href="#" class="text-gray-400 hover:text-white mx-2">Terms & Conditions</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
