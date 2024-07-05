@@ -102,7 +102,7 @@ export function Header() {
             <div className="hidden md:block">
               <NavLink href="https://dashboard.privify.org">Sign in</NavLink>
             </div>
-            <Button href="https://dashboard.privify.org" color="blue">
+            <Button href="/contactus" color="blue">
               <span>
                 Get started <span className="hidden lg:inline">today</span>
               </span>

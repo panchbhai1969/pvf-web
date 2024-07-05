@@ -7,10 +7,10 @@ import '@/styles/tailwind.css'
 export const metadata: Metadata = {
   title: {
     template: '%s - TaxPal',
-    default: 'TaxPal - Accounting made simple for small businesses',
+    default: 'Privify.org - Complaince Made Simple',
   },
   description:
-    'Most bookkeeping software is accurate, but hard to use. We make the opposite trade-off, and hope you don’t get audited.',
+    'We leverage Gen AI to streamline your complainces. So that you can focus on decision making rather than doing chores.',
 }
 
 const inter = Inter({

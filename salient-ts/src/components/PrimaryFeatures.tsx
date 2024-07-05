@@ -11,31 +11,36 @@ import screenshotExpenses from '@/images/screenshots/expenses.png'
 import screenshotPayroll from '@/images/screenshots/payroll.png'
 import screenshotReporting from '@/images/screenshots/reporting.png'
 import screenshotVatReturns from '@/images/screenshots/vat-returns.png'
+import screenshotUploads from '@/images/screenshots/uploads.jpg'
+import screenshotInsights from '@/images/screenshots/insights.jpg'
+import screenshotMagic from '@/images/screenshots/magic.jpg'
+import screenshotAudit from '@/images/screenshots/audit-report.jpg'
+
 
 const features = [
   {
     title: 'Upload',
     description:
       "Just ask the client to uplaod all the documents and relevant evidences",
-    image: screenshotPayroll,
+    image: screenshotUploads,
   },
   {
     title: 'Heavy Lifting by Privify ',
     description:
       "Privify reads all the documents and get you CRISP Insights",
-    image: screenshotExpenses,
+    image: screenshotInsights,
   },
   {
     title: 'Privify Magic ✨',
     description:
       "Privify reads through the documents and asks for specific Evidences. It proceess the the evidence to show whether they are valid or not + Leaves specific comments for the auditor",
-    image: screenshotVatReturns,
+    image: screenshotMagic,
   },
   {
     title: 'Auditor Reviews & Reporting',
     description:
       'The Auditor goes through the findings and finalises the report! + Easily deliver beautifully crafted compliance reports in fraction on the effort.',
-    image: screenshotReporting,
+    image: screenshotAudit,
   },
 ]
 
@@ -77,7 +82,7 @@ export function PrimaryFeatures() {
         <div className="max-w-2xl md:mx-auto md:text-center xl:max-w-none">
           <h2 className="font-display text-3xl tracking-tight text-white sm:text-4xl md:text-5xl">
             {/* Everything you need to close an Audit. */}
-            The best tool a Consultant/Auditor Deserves.
+            The best tool a Complaince Team Deserves.
           </h2>
           <p className="mt-6 text-lg tracking-tight text-blue-100">
             Just upload the documents and evidences: Let <span className="font-bold">Privify </span> do the heavy lifting for you.

@@ -7,25 +7,25 @@ const faqs = [
   [
     {
       question: 'How does it work?',
-      answer: 'Our AI-based auditing tool streamlines the ISO/IEC 27001:2022 compliance process by automating the collection and analysis of your company’s security controls, policies, and procedures. It provides detailed reports and recommendations to ensure your organization meets all necessary standards.'
+      answer: 'Privify streamlines the ISO/IEC 27001:2022 compliance process by automating the collection and analysis of your company’s security controls, policies, and procedures. It provides detailed reports and recommendations to ensure the organization meets all necessary standards. It simplifies the audit process so that you can focus on decision making.'
     },
     {
       question: 'What kind of Technologies are used?',
-      answer: 'The tool leverages advanced machine learning algorithms, natural language processing, and secure cloud-based infrastructures to efficiently audit and provide insights on your security posture.'
+      answer: 'The tool leverages advanced Gen AI, machine learning algorithms, natural language processing, and secure cloud-based infrastructures to efficiently audit and provide insights on your security posture.'
     },
     {
       question: 'Will this replace all consultants?',
-      answer: 'While our tool significantly reduces the need for manual audits, it is designed to complement the work of consultants. It provides comprehensive data and insights that consultants can use to focus on high-level strategic planning and remediation.'
+      answer: 'While our tool significantly reduces the repetitive aspects of audits, it is designed to complement the work of consultants. It provides comprehensive data and insights that consultants can use to focus on high-level strategic planning and remediation.'
     }
   ],
   [
     {
       question: 'How can I start using it?',
-      answer: 'To start using our AI-based auditing tool, simply sign up on our website, choose the appropriate subscription plan for your organization, and follow the onboarding process to integrate your systems. Our support team is available to assist you at every step.'
+      answer: 'To start using our AI-based auditing tool, Contact us over email at support@privify.org. Our support team is available to assist you at every step.'
     },
     {
       question: 'How much will this cost me?',
-      answer: 'The cost varies based on the size of your organization and the specific requirements of your audit. Please visit our pricing page or contact our sales team for a detailed quote tailored to your needs.'
+      answer: 'The cost varies based on the size of your organization and the specific requirements of your audit. Privify sells licences for each organisation. Please contact our sales team for a detailed quote tailored to your needs.'
     },
     {
       question: 'What all certifications does it cover?',
@@ -35,15 +35,15 @@ const faqs = [
   [
     {
       question: 'How is this sold?',
-      answer: 'The auditing tool is available through a subscription-based model. You can choose from monthly or annual plans, with options to scale based on the size and complexity of your organization.'
+      answer: 'The auditing tool is available through a subscription-based/license model. You can choose from monthly or annual plans, with options to scale based on the size and complexity of your organization.'
     },
     {
       question: 'How will I get a discount if I buy multiple licenses?',
-      answer: 'We offer volume discounts for organizations purchasing multiple licenses. Please contact our sales team to discuss your specific needs and receive a customized discount plan.'
+      answer: 'We offer volume discounts for organizations purchasing multiple licenses. Please contact our sales team to discuss your specific needs and receive a customized discounted plan.'
     },
     {
       question: 'What to do if I lose my password?',
-      answer: 'If you lose your password, you can use the password recovery option on our login page. If you need further assistance, our support team is available to help you reset your password securely.'
+      answer: 'If you lose your password, you can ping at support@privify.org. If you need further assistance, our support team is available to help you reset your password securely.'
     }
   ]
 ];

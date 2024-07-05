@@ -26,7 +26,7 @@ export function CallToAction() {
           <p className="mt-4 text-lg tracking-tight text-white">
             It&apos;s time to enter the new Era of Complaince Auditing and Management. Provide the best in class Governance to your clients today!
           </p>
-          <Button href="https://dashboard.privify.org" color="white" className="mt-10">
+          <Button href="/contactus" color="white" className="mt-10">
             Let&apos;s start
           </Button>
         </div>
